@@ -20,7 +20,8 @@ Create a variable called `monthlyInterestRate` and give it the value of interest
 Create another variable called `periods` and give it the value of years*12.
 */
 
-
+let monthlyInterestRate = 12 / interestRate 
+var periods = years * 12
 
 
 // 🏡 Task 2: Harder Math
@@ -32,7 +33,7 @@ Hint #2: you'll need to use the `math` object for parts of this calculation!
 
 When your math is correct, monthlyRate will equal 1073.64
 */
-
+mortgage = principal [ interestRate ( 1 + interestRate) ^ periods ] / [ ( 1 + interestRate ^ periods ) - 1 ]
 
 
 
